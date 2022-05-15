@@ -1,0 +1,3 @@
+The purpose of this program is to consolidate job postings in an easy to read, easy to access manner. This program utilizes Selenium to parse and collect web data based on user specifications, with the default case being to look for Software Engineering jobs in Texas. With the postings found, they will be organized and stored based on the following criteria: title, employer, location and work type (traditional/hybrid/remote), programming language, and experience requirements. A link to the job posting will also be included in the compiled results. 
+
+All results will be stored in a SQLite database for easy viewing access. This database will also be converted to a .csv and uploaded to a Google Spreadsheet.

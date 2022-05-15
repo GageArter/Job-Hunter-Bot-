@@ -1,0 +1,14 @@
+name: job_hunter
+channels:
+  - conda-forge
+dependencies:
+  - behave=1.2.6
+  - python=3.8.2
+  - selenium=3.141.0
+  - pandas
+  - pendulum
+  - requests
+  - pip
+  - pip:
+    # PINNED
+    - nerodia==0.14.1
